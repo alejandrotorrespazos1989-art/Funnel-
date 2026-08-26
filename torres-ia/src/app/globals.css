@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: #f7f5f1;
+  color: #0f1417;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-tight { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* Kanban visual */
+.kanban-col { min-height: 240px; }
